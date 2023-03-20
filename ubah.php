@@ -86,7 +86,9 @@ function is_select($var, $val)
                 </div>
                 <div class="input">
                     <label>File Gambar</label>
-                    <input type="file" name="file_gambar" />
+                    <div class="label">
+                        <input type="file" name="file_gambar" />
+                    </div>
                 </div>
                 <div class="submit">
                     <input type="hidden" name="id" value="<?php echo $data['id_barang']; ?>" />
