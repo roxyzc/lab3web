@@ -34,8 +34,8 @@ $result = mysqli_query($conn, $sql);
                             <td><img src="<?= $row["gambar"]; ?>" alt="<?= $row['nama']; ?>"></td>
                             <td><?= $row['nama']; ?></td>
                             <td><?= $row['kategori']; ?></td>
-                            <td><?= $row['harga_beli']; ?></td>
-                            <td><?= $row['harga_jual']; ?></td>
+                            <td><?= number_format($row['harga_beli']); ?></td>
+                            <td><?= number_format($row['harga_jual']); ?></td>
                             <td><?= $row['stok']; ?></td>
                             <td><a href="ubah.php?id=<?= $row['id_barang']; ?>">Ubah</a> <a href="hapus.php?id=<?= $row["id_barang"]; ?>">delete</a></td>
                         </tr>

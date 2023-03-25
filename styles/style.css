@@ -27,10 +27,8 @@
 }
 
 .container .main table{
+    box-shadow: -2px 4px 2px gray;
     border-collapse: collapse;
-}
-
-.container .main table{
     text-align: center;
 }
 

@@ -1,4 +1,5 @@
 # lab3web
+
 **<p>Nama: Ridho Pikriyansyah</p>**
 **<p>Kelas: TI.21.A.3</p>**
 **<p>NIM: 312110169</p>**
@@ -6,6 +7,7 @@
 ## koneksi.php
 
 ### Code
+
 ```
 <?php
 $host = "localhost";
@@ -20,14 +22,17 @@ if ($conn == false) {
 ```
 
 ### Penjelasan
+
 > Pada code diatas digunakan untuk menghubungkan ke database yang bernama "latihan1"
 
 ## index.php
 
 ### Output
+
 ![gambar1](./sample/lihat.png)
 
 ### Code
+
 ```
 <?php
 include("koneksi.php");
@@ -85,14 +90,19 @@ $result = mysqli_query($conn, $sql);
 ```
 
 ### Penjelasan
+
 > Contoh diatas merupakan skrip PHP yang menghasilkan halaman HTML dan menampilkan data dari tabel database yang disebut "data_barang"
 
 ## tambah.php
 
 ### Output
+
 ![gambar](./sample/tambah.png)
 
+![gambar](./sample/tambah1.png)
+
 ### Code
+
 ```
 <?php
 error_reporting(E_ALL);
@@ -178,14 +188,19 @@ if (isset($_POST['submit'])) {
 ```
 
 ### Penjelasan
+
 > Code diatas merupakan form untuk menambahkan data pada table "data_barang"
 
 ## ubah.php
 
 ### Output
+
 ![gambar](./sample/ubah.png)
 
+![gambar](./sample//ubah1.png)
+
 ### Code
+
 ```
 <?php
 // error_reporting(E_ALL);
@@ -295,17 +310,21 @@ function is_select($var, $val)
 ```
 
 ### Penjelasan
+
 > Code diatas merupakan form untuk merubah atau mengupdate suatu data dari table "data_barang" melalui sebuah "id"
 
 ## hapus.php
 
 ### Output _Sebelum dihapus_
+
 ![gambar1](./sample/hapus1.png)
 
 ### Output _Sesudah dihapus_
+
 ![gambar2](./sample/hapus2.png)
 
 ### Code
+
 ```
 <?php
 include_once 'koneksi.php';
@@ -317,4 +336,5 @@ header('location: index.php');
 ```
 
 ### Penjelasan
+
 > Code diatas merupakan contoh untuk menghapus data dari table "data_barang" melalui sebuah "id"

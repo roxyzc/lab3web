@@ -74,15 +74,15 @@ function is_select($var, $val)
                 </div>
                 <div class="input">
                     <label>Harga Jual</label>
-                    <input type="text" maxlength="12" name="harga_jual" value="<?php echo $data['harga_jual']; ?>" />
+                    <input type="text" maxlength="10" name="harga_jual" value="<?php echo $data['harga_jual']; ?>" />
                 </div>
                 <div class="input">
                     <label>Harga Beli</label>
-                    <input type="text" maxlength="12" name="harga_beli" value="<?php echo $data['harga_beli']; ?>" />
+                    <input type="text" maxlength="10" name="harga_beli" value="<?php echo $data['harga_beli']; ?>" />
                 </div>
                 <div class="input">
                     <label>Stok</label>
-                    <input type="text" maxlength="12" name="stok" value="<?php echo $data['stok']; ?>" />
+                    <input type="text" maxlength="10" name="stok" value="<?php echo $data['stok']; ?>" />
                 </div>
                 <div class="input">
                     <label>File Gambar</label>

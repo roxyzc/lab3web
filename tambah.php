@@ -51,15 +51,15 @@ if (isset($_POST['submit'])) {
                 </div>
                 <div class="input">
                     <label>Harga Jual</label>
-                    <input type="text" maxlength="12" name="harga_jual" />
+                    <input type="text" maxlength="10" name="harga_jual" />
                 </div>
                 <div class="input">
                     <label>Harga Beli</label>
-                    <input type="text" maxlength="12" name="harga_beli" />
+                    <input type="text" maxlength="10" name="harga_beli" />
                 </div>
                 <div class="input">
                     <label>Stok</label>
-                    <input type="text" maxlength="12" name="stok" />
+                    <input type="text" maxlength="10" name="stok" />
                 </div>
                 <div class="input">
                     <label>File Gambar</label>
